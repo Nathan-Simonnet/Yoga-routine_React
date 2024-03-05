@@ -1,0 +1,73 @@
+h1 {
+    height: 100px;
+    width: 60%;
+
+    margin-bottom: 48px;
+
+    background: rgba(255, 255, 255, 0.555);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 40px;
+    width: 160px;
+    padding: 24px;
+    font-weight: 600;
+    font-size: 1.1em;
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+
+    transition: 0.1s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+#routine {
+    margin-right: 24px;
+}
+
+#lobby {
+    margin-left: 24px;
+}
+
+@media screen and (max-width: 650px) {
+
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #routine {
+        margin: 0;
+        margin-bottom: 24px;
+    }
+
+    #lobby {
+        margin: 0;
+        margin-top: 24px;
+    }
+}

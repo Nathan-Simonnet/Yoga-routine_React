@@ -1,0 +1,36 @@
+:root {
+    --main-text-color: #002453;
+    --block-color: rgba(255, 255, 255, 0.537);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../assets/font/Montserrat/Montserrat-VariableFont_wght.ttf)
+}
+
+* {
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--main-text-color);
+}
+
+body {
+    min-height: 100vh;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Trebuchet MS';
+    background: url(../assets/images/background_blue-sky.jpg) center/cover;
+}
+
+
+input,
+.left,
+.delete {
+    border: 2px solid rgba(0, 0, 0, 0.245);
+}
